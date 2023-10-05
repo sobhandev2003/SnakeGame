@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame : gameing worald</title>
+    <link rel="stylesheet" href="css/border.css">
+    <link rel="stylesheet" href="css/snake.css">
+    
+</head>
+<body>
+    <div class="body ">
+        
+        <div class="bord-div" >
+    <span class="top"></span>
+<span class="bottom"></span>
+<span class="left"><span  class="  borderOpenSpan"></span></span>
+<span class="right"><span  class="  borderOpenSpan"></span></span>
+
+
+    <div id="bord">
+        
+    </div>
+    <div  id="gameOverDiv" class="center"> 
+        <Span id="gameOver-msg"style="display: none;"></Span>
+        <br>
+        <button id="Continue" onclick="Fcontinue()" style="display: none;">Continue </button>
+    </div>
+    <div id="hiscorediv"  style="display: none;">You create new high score</div>
+</div>
+        <div id="score_div">
+            <h3>Your Score</h3>
+            <br>
+            <p id="score_box">0</p>
+        </div>
+        <div id="High_score_div">
+            <h3>Highest Score</h3><br>
+            <p id="highscore_box" style="font-size: 30px; font-weight: bolder;">0</p>
+        </div>
+    </div>
+</body>
+<script src="js/snake.js"></script>
+<script src="js/utils.js"></script>
+</html>
