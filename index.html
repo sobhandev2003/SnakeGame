@@ -18,7 +18,14 @@
 <span class="left"><span  class="  borderOpenSpan"></span></span>
 <span class="right"><span  class="  borderOpenSpan"></span></span>
 
-
+<div id="description" >
+  <p> Press any key in keybord for start the game.<br>
+    After started game use Arrow key in keybord and contorl Snake movement direction.<br>
+    If snake touch black border and black block then game  over
+</p> 
+    <img src="arrow-keys.jpg" alt="Arrow keys Image">
+    <button onclick="hideDescription()">Got It</button>
+    </div>
     <div id="bord">
         
     </div>
@@ -28,7 +35,9 @@
         <button id="Continue" onclick="Fcontinue()" style="display: none;">Continue </button>
     </div>
     <div id="hiscorediv"  style="display: none;">You create new high score</div>
+    
 </div>
+
         <div id="score_div">
             <h3>Your Score</h3>
             <br>
@@ -37,6 +46,9 @@
         <div id="High_score_div">
             <h3>Highest Score</h3><br>
             <p id="highscore_box" style="font-size: 30px; font-weight: bolder;">0</p>
+        </div>
+        <div class="anout-btn-div">
+            <button id="about-btn" onclick="displayDescription()">How Play ?</button>
         </div>
     </div>
 </body>

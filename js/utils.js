@@ -1,3 +1,12 @@
+const description=document.getElementById('description');
+function displayDescription(){
+  description.style.display = "block";
+}
+function hideDescription(){
+  description.style.display = "none";
+}
+
+
 const Fcontinue = () => {
     gameOverMsg.style.display="none";
     Continue.style.display="none";
